@@ -10,7 +10,7 @@ const Movie = require('./models/movies')
 
 // 使用原生 Promise 替换 mongoose 的 Promise
 mongoose.Promise = global.Promise
-mongoose.connect('mongodb://localhost/movies', {
+mongoose.connect('mongodb://127.0.0.1:27017/movies', {
     useMongoClient: true
 })
 

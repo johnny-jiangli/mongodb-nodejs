@@ -7,8 +7,8 @@
 Node.js + MongoDB 建站攻略（一期）
 http://www.imooc.com/learn/75
 
-~~Node.js 建站攻略（二期）——网站升级~~
-~~http://www.imooc.com/learn/197~~
+Node.js 建站攻略（二期）——网站升级
+http://www.imooc.com/learn/197
 
 ## 项目介绍
 
@@ -47,7 +47,8 @@ http://www.imooc.com/learn/75
 3. 项目根目录 `bower install`
 4. 安装 MongoDB：https://www.mongodb.com/download-center
 5. 项目根目录 `node app.js`
-6. 打开浏览器访问
+6. 打开浏览器访问，此时因为数据库没有数据，所以应该先访问：http://localhost:8000/admin/new 添加电影
+
 
 ## 依赖项
 
